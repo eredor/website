@@ -1,0 +1,12 @@
+<footer class="pt-5 my-5 text-muted border-top">
+  <div class="row">
+    <div class="col-md-6 text-end social-media-icons">
+      {% for item in site.data.settings.social %}
+	<a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a> 
+	<div class="col-sm-10">
+		<p>Made with <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/LeNPaul/academic">LeNPaul's academic theme</a></p>
+     	</div>
+      {% endfor %}
+    </div>
+  </div>
+</footer>

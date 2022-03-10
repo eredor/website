@@ -1,0 +1,9 @@
+menu:
+- {name: 'cv', url: '/cv'}
+- {name: 'contact', url: '/contact'}
+
+social:
+- {icon: 'github', link: 'https://github.com/eredor'}
+
+contacts:
+- {name: 'Emma Redor', title: 'Student', department: 'Computer science', institution: 'ENS Rennes', institution_address: 'Avenue de Robert Schumann, Campus de Ker Lann, 35170 Bruz', phone: '06 95 36 58 48', email: 'emma.redor@ens-rennes.fr', image: 'assets/img/contact.jpg'}
